@@ -4,7 +4,7 @@ use Moose::Util::TypeConstraints qw(coerce from where via subtype);
 use Encode;
 use Text::Xslate;
 use namespace::autoclean;
-use Scalar::Util qw/blessed weaken/;
+use Scalar::Util qw/weaken/;
 
 our $VERSION = '0.00013';
 
